@@ -1,7 +1,7 @@
-# Object Detection in Videos using Integration of Balanced Group Softmax with Flow-Guided Feature Aggregation
+# Long-tail-Video-Object-Detection
 
 
-This repo is the implementation of Balanced Group Softmax with Flow-Guided Feature Aggregation for 3D Computer Vision and Augmented Reality project of Summer Semester 2022.
+This repo is the implementation of Long-tail-Video-Object-Detection for 3D Computer Vision and Augmented Reality project of Summer Semester 2022.
 
 
 ## Requirements
@@ -28,7 +28,7 @@ Only COCO annotation format is supported. Upload the annotation file and link th
 
 #### c. Pretrained models:
 
-Pretrained model is presented in 'work_dirs' directory. If you need pretrained model for different epochs, change the epochs setting in config file 'configs/vid/fgfa/gs_fgfa_faster_rcnn_r50_dc5_1x_imagenetvid.py', the pretrained model will be saved in 'work_dirs' directory.
+The pretrained model will be saved in 'work_dirs' directory after training.
 
 #### d. Intermediate files:
 Intermediate files are already present and linked in config file. Files are present in 'intermediate_files' directory. 
