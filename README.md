@@ -1,7 +1,7 @@
-# Long-tail-Video-Object-Detection
+# Object Detection in Videos using Integration of Balanced Group Softmax with Flow-Guided Feature Aggregation
 
 
-This repo is the implementation of Long-tail-Video-Object-Detection for 3D Computer Vision and Augmented Reality project of Summer Semester 2022.
+This repo is the implementation of Balanced Group Softmax with Flow-Guided Feature Aggregation for 3D Computer Vision and Augmented Reality project of Summer Semester 2022.
 
 
 ## Requirements
