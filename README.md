@@ -20,11 +20,11 @@ This repo is the implementation of Long-tail-Video-Object-Detection for 3D Compu
 ### 2. Data:
 #### a. Dataset:
     
-This model works with ImageNet VID dataset. Upload the dataset and link the path in 'gs_imagenet_vid_fgfa_style.py' file.
+This model works with ImageNet VID dataset. Upload the dataset and link the path in 'configs/_base_/datasets/gs_imagenet_vid_fgfa_style.py' file.
 
 #### b. Dataset annotations:
 
-Only COCO annotation format is supported. Upload the annotation file and link the path in 'gs_imagenet_vid_fgfa_style.py' file.
+Only COCO annotation format is supported. Upload the annotation file and link the path in 'configs/_base_/datasets/gs_imagenet_vid_fgfa_style.py' file.
 
 #### c. Pretrained models:
 
@@ -51,8 +51,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29501 ./tools/dist_train.sh configs/vid/fgfa/g
 
 
 ## Testing
-
-> **Note:** Please make sure that you have prepared the [intermediate files](#d-for-intermediate-files-for-bags-and-reweight-models-only) and they have been put to the path specified in `${CONIFG_FILE}`. 
 
 Use the following command to test the model:
 ```test
