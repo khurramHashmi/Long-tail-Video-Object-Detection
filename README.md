@@ -1,7 +1,7 @@
 # Long-tail-Video-Object-Detection
 
 
-This repository experiments with implementing the idea of long tain object detection in Video domain. The idea of long tail object detection is inspired by this [**Paper**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Overcoming_Classifier_Imbalance_for_Long-Tail_Object_Detection_With_Balanced_Group_CVPR_2020_paper.pdf).
+This repository experiments by extending the idea of long tail object detection from images into Video domain. The idea of long tail object detection is inspired by this [**Paper**](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Overcoming_Classifier_Imbalance_for_Long-Tail_Object_Detection_With_Balanced_Group_CVPR_2020_paper.pdf).
 
 
 ## Requirements
