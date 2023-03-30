@@ -64,7 +64,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vid/fgfa/gs_fgfa_faster_rcnn
 
 
 ## Results
-The model acheived 75.9 for mAP@50.
+The model acheives mAP@50 of 75.9.
 
 ## Credit
 This code is largely based on [**mmtracking**](https://github.com/open-mmlab/mmtracking) and [**BalancedGroupSoftmax**](https://github.com/FishYuLi/BalancedGroupSoftmax).
